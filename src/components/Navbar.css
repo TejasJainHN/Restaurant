@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: navy;
+  color: white;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center; /* Align logo and text vertically */
+  gap: 0.5rem; /* Add spacing between text and logo */
+}
+
+.navbar-logo h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color:red;
+}
+
+.logo img {
+  height: 100px;
+  width: 222px; /* Maintain aspect ratio */
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li {
+  font-size: 25px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: red; /* Customize hover effect */
+}

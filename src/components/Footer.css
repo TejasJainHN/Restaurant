@@ -1,0 +1,20 @@
+.footer {
+  background-color: #100f0f; /* Dark background for the footer */
+  color: #fff; /* Text color */
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  color: gold; /* Gold color for the text */
+  font-family: "Arial", sans-serif;
+}
+
+.footer-text br {
+  margin: 0.5rem 0; /* Space between lines */
+}
+
+.footer-text span {
+  font-size: 1.5rem; /* Increase emoji size */
+}

@@ -1,0 +1,92 @@
+.todays-special-container {
+  background-color: black;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  position: relative;
+  background-image: linear-gradient(45deg, #ffffff 25%, transparent 25%) 0 0,
+                    linear-gradient(-45deg, #ffffff 25%, transparent 25%) 0 0;
+  background-size: 50px 50px;
+}
+
+.todays-special-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff4500; /* Customize heading color */
+}
+
+.todays-special-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left-section,
+.right-section {
+  width: 30%;
+}
+
+.center-section {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottle-image {
+  width: 70%;
+  height: auto;
+}
+
+.wine-beer,
+.cocktails {
+  padding: 1rem;
+}
+
+.wine-beer h3,
+.cocktails h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #ff4500; /* Customize subheading color */
+}
+
+.wine-beer ul,
+.cocktails ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.wine-beer li,
+.cocktails li {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.wine-beer span,
+.cocktails span {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .todays-special-content {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section,
+  .center-section {
+    width: 100%;
+  }
+
+  .bottle-image {
+    width: 60%;
+    margin: 0 auto 1rem;
+  }
+}
